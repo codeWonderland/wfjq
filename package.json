@@ -1,0 +1,22 @@
+{
+  "name": "wfjq",
+  "version": "1.0.0",
+  "description": "Wait For jQuery is a dependency checker to determine when jQuery is available for use, then run any functions dependent on it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeWonderland/wfjq.git"
+  },
+  "keywords": [
+    "jQuery"
+  ],
+  "author": "codeWonderland",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codeWonderland/wfjq/issues"
+  },
+  "homepage": "https://github.com/codeWonderland/wfjq#readme"
+}
