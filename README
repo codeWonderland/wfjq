@@ -13,6 +13,7 @@ Ex.
   "numTries" : 17,
   "onFail" : failFuncName
 }
+```
 
 #### numTries
 This is the number of times that wfjq will try to check for jQuery. After the number has run down, wfjq will run the onFail callback if possible, or just call it a day if not.
