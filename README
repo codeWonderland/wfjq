@@ -14,11 +14,13 @@ Ex.
   "onFail" : failFuncName
 }
 ```
+#### keepTrying : boolean
+This parameter will tell wfjq to keep running until jQuery is loaded, regardless of the wait time. Note that this will override numTries
 
-#### numTries
+#### numTries : int
 This is the number of times that wfjq will try to check for jQuery. After the number has run down, wfjq will run the onFail callback if possible, or just call it a day if not.
 
-#### onFail
+#### onFail : boolean
 This parameter takes in a callback function to be run in the event that jQuery is not loaded, that way your user can still have a pleasant experience :3
 
 ## License

@@ -1,6 +1,6 @@
 {
   "name": "wfjq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wait For jQuery is a dependency checker to determine when jQuery is available for use, then run any functions dependent on it",
   "main": "index.js",
   "scripts": {
